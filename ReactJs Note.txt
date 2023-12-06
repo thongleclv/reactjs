@@ -1,0 +1,109 @@
+https://vntalking.com/su-khac-nhau-giua-npm-va-npx.html
+NPM (Node Package Manager) là chương trình quản lý các packages và không thực thi chúng.
+NPX (Npm Package Executor) , đúng như với tên gọi của nó, chương trình này có thể thực thi các package được lưu trữ trên npm
+======================================
+https://www.geeksforgeeks.org/reactjs-environment-setup/?ref=lbp
+ReactJS Environment Setup
+
+Pre-requisite: Installation of Node.js
+
+Method 1: Using create-react-app (CRA commond)
+Step 1: Navigate to the folder where you want to create the project and open it in terminal
+Step 2: In the terminal of the application directory type the following command : npx create-react-app <<Application_Name>>
+Step 3: Navigate to the newly created folder using the command: cd <<Application_Name>>
+Step 4: To run this application type the following command in terminal: npm start
+======================================================
+React Fundamentals
+
+1. ReactJS JSX Introduction
+Attributes in JSX
+JSX allows us to use attributes with the HTML elements just like we do with normal HTML. But instead of the normal naming convention of HTML, JSX uses the camelcase convention for attributes.
+
+The change of class attribute to className: The class in HTML becomes className in JSX.
+Creation of custom attributes:We can also use custom attributes in JSX. For custom attributes, the names of such attributes should be prefixed by data-* attribute.
+
+2. ReactJS Babel Introduction
+Babel is a very famous transpiler that basically allows us to use future JavaScript in today’s browsers. In simple words, it can convert the latest version of JavaScript code into the one that the browser understands.
+
+3. ReactJS Virtual DOM
+React uses Virtual DOM exists which is like a lightweight copy of the actual DOM(a virtual representation of the DOM). So for every object that exists in the original DOM, there is an object for that in React Virtual DOM. It is exactly the same, but it does not have the power to directly change the layout of the document. 
+Manipulating DOM is slow, but manipulating Virtual DOM is fast as nothing gets drawn on the screen. So each time there is a change in the state of our application, the virtual DOM gets updated first instead of the real DOM. 
+
+4. React JS ReactDOM
+React JS ReactDOM or react-dom is the most widely used package of React. React provides the developers with a package react-dom to access and modify the DOM
+Important functions provided by ReactDOM
+render(): This is one of the most important methods of ReactDOM. This function is used to render a single React Component or several Components wrapped together in a Component or a div element. 
+findDOMNode(): This function is generally used to get the DOM node where a particular React component was rendered. This method is very less used like the following can be done by adding a ref attribute to each component itself.
+unmountComponentAtNode(): This function is used to unmount or remove the React Component that was rendered to a particular container.
+hydrate(): This method is equivalent to the render() method but is implemented while using server-side rendering. 
+createPortal(): It allow us to render a component into a DOM node that resides outside the current DOM hierarchy of the parent component. 
+
+5. ReactJS Lists, ReactJS forms
+
+6. ReactJS Keys
+React JS keys are a way of providing a unique identity to each item while creating the React JS Lists so that React can identify the element to be processed.
+
+7. ReactJS Refs
+React JS Refs are used to access and modify the DOM elements in the React Application. It creates a reference to the elements and uses it to modify them.
+
+8. ReactJS Rendering Elements
+React elements are different from DOM elements as React elements are simple JavaScript objects and are efficient to create. React elements are the building blocks of any React app
+React Elements are immutable i.e. once an element is created it is impossible to update its children or attribute.
+
+9. ReactJS Components
+Types of Components in React JS: Functional Components, Class Components
+
+10. ReactJS Class Components
+Passing props in class components: Data is passed to other components with the help of props. Props work similarly for all components in ReactJS be they class or functional. Props are always passed down from the parent component to the child component.
+ReactJS does not allow a component to modify its own props as a rule
+
+11. ReactJS Methods as Props
+We know that everything in ReactJS is a component and to pass in data to these components, props are used. Whenever we call child components from parents we can pass data as props. This helps the parent component communicate with the child.
+Although passing in props like this is great, it surely lacks flexibility in an application. For example, we cannot let the child communicate with the parent in this way. This, nonetheless, can be done by passing methods as props in ReactJS. 
+
+12. ReactJS PropTypes
+We passed different types of information like integers, strings, arrays, etc. as props to the components. We can either create defaultProps or have passed props directly as attributes to the components. We do not have a check on what type of values we are getting inside our Component through props.For larger Apps, it is always a good practice to validate the data we are getting through props.
+
+13. ReactJS Props
+React allows us to pass information to a Component using something called props (which stands for properties). Props are objects which can be used inside a component.
+
+14. ReactJS Unidirectional Data Flow
+Unidirectional data flow is a technique that is mainly found in functional reactive programming. It is known as one-way data flow, which means the data has one, and only one way to be transferred to other parts of the application. In essence, this means child components are not able to update the data that is coming from the parent component. In React, data coming from a parent is called props
+
+15. ReactJS State
+The state in React is an instance of the React Component Class that can be defined as an object of a set of observable properties that control the behavior of the component.
+
+Difference between Props and State
+We have already learned about Props and we got to know that Props are also objects that hold information to control the behavior of that particular component, sounds familiar to the State indeed but props and states are nowhere near be same. Let us differentiate the two.
+
+Props are immutable i.e. once set the props cannot be changed, while State is an observable object that is to be used to hold data that may change over time and to control the behavior after each change.
+States can be used in Class Components but in Functional components we have to use React hooks(useState) to implement states.
+While Props are set by the parent component, the State is generally updated by event handlers.
+
+16. ReactJS State vs Props
+https://www.geeksforgeeks.org/reactjs-state-vs-props/?ref=lbp
+
+17. ReactJS Lifecycle of Components
+Phases in lifecycle of Components
+Mounting(Component is added to the DOM)
+Updating(Component is updated in the DOM)
+Unmounting(Component is removed from the DOM)
+
+18. ReactJS Hooks
+Hooks are used to give functional components an access to use the states and are used to manage side-effects in React. They were introduced React 16.8. They let developers use state and other React features without writing a class For example- State of a component It is important to note that hooks are not used inside the classes.
+Note: Hooks cannot be used with class components
+
+19. Context in React
+React Context is a method to pass props from parent to child component(s), by storing the props in a store(similar in Redux) and using these props from the store by child component(s) without actually passing them manually at each level of the component tree.
+
+20. ReactJS Router
+React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
+
+21. React JS Types of Routers
+Memory Router
+Browser Router
+Hash Router
+
+22. 
+
+
