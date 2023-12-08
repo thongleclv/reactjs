@@ -104,6 +104,4 @@ Memory Router
 Browser Router
 Hash Router
 
-22. 
-
 
