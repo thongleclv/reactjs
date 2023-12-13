@@ -13,6 +13,11 @@ Step 2: In the terminal of the application directory type the following command 
 Step 3: Navigate to the newly created folder using the command: cd <<Application_Name>>
 Step 4: To run this application type the following command in terminal: npm start
 ======================================================
+Imperative vs. declarative programming
+The code above is a good example of imperative programming. You're writing the steps for how the user interface should be updated. But when it comes to building user interfaces, a declarative approach is often preferred because it can speed up the development process. Instead of having to write DOM methods, it would be helpful if developers were able to declare what they want to show (in this case, an h1 tag with some text).
+In other words, imperative programming is like giving a chef step-by-step instructions on how to make a pizza. Declarative programming is like ordering a pizza without being concerned about the steps it takes to make the pizza. 🍕
+React is a popular declarative library that you can use build user interfaces.
+
 React Fundamentals
 
 1. ReactJS JSX Introduction

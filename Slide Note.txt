@@ -1,0 +1,23 @@
+What is React?
+React is a JavaScript library for rendering user interfaces (UI)
+React is a JavaScript library for building interactive user interfaces.
+
+User Interface - how users will consume and interact with your application.
+==========================================
+How does ReactJS work?
+What is the DOM?
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. 
+DOM is an application programming interface (API) for HTML and XML documents which shows the logical structure of documents and how a document is manipulated and accessed.
+
+DOM (Document Object Model) is slow.
+ReactJS DOM vs Virtual DOM: What is The Difference?
+https://www.tutorialsfreak.com/reactjs-tutorial/understanding-reactjs-dom
+https://www.geeksforgeeks.org/reactjs-virtual-dom/
+
+Disadvantages of real DOM :
+Every time the DOM gets updated, the updated element and its children have to be rendered again to update the UI of our page. 
+For this, each time there is a component update, the DOM needs to be updated and the UI components have to be re-rendered.
+==========================================
+React Installation
+https://www.geeksforgeeks.org/reactjs-environment-setup/?ref=lbp
