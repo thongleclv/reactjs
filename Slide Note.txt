@@ -1,7 +1,6 @@
 What is React?
 React is a JavaScript library for rendering user interfaces (UI)
 React is a JavaScript library for building interactive user interfaces.
-
 User Interface - how users will consume and interact with your application.
 ==========================================
 How does ReactJS work?

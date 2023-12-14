@@ -1,0 +1,20 @@
+https://codesandbox.io/p/sandbox/react-dev-fr74xd?file=%2Fsrc%2Findex.js
+
+State is isolated and private 
+https://codesandbox.io/p/sandbox/react-dev-5rx42k?file=%2Fsrc%2Findex.js
+
+State as a Snapshot
+https://codesandbox.io/p/sandbox/react-dev-tty55g?file=%2Fsrc%2FApp.js
+
+https://codesandbox.io/p/sandbox/react-dev-ffhp6h
+
+https://codesandbox.io/p/sandbox/react-dev-xcsmmf
+
+Update object
+https://codesandbox.io/p/sandbox/react-dev-x4ltt8
+
+Update array
+https://codesandbox.io/p/sandbox/react-dev-yy44zn?file=%2Fsrc%2Findex.js
+
+Sharing State Between Components
+https://codesandbox.io/p/sandbox/react-dev-kyxl65?file=%2Fsrc%2FApp.js%3A31%2C5

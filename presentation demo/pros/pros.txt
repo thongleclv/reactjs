@@ -1,0 +1,4 @@
+https://codesandbox.io/p/sandbox/react-dev-jknctr?file=%2Fsrc%2Findex.js
+
+Passing JSX as children 
+https://codesandbox.io/p/sandbox/react-dev-forked-dphcz3?file=%2Fsrc%2FApp.js%3A17%2C16

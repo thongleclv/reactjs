@@ -1,0 +1,4 @@
+https://codesandbox.io/p/sandbox/react-dev-k9s9n2?file=%2Fsrc%2FApp.js
+
+Export component
+https://codesandbox.io/p/sandbox/react-dev-xgy8t9?file=%2Fsrc%2Findex.js
