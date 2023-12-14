@@ -41,4 +41,12 @@ Once React knows which virtual DOM objects have changed, then React updates only
 =========================================
 JSX
 https://react.dev/learn/writing-markup-with-jsx
-
+=========================================
+https://react.dev/learn/keeping-components-pure
+=========================================
+State
+https://hygraph.com/blog/usestate-react
+Hooks are special functions that are only available while React is rendering
+Hooks rely on a stable call order on every render of the same component.
+==========================================
+https://react.dev/learn/sharing-state-between-components
